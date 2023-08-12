@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @Service
 public class MovieService {
+    @Autowired
     private final MovieRepository movieRepository;
 
     @Autowired
